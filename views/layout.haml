@@ -1,0 +1,10 @@
+!!! 5
+%html
+  %head
+    %title
+      = @page_title
+    %link{:href=>'/app.css', :type=>'text/css', :rel=>'stylesheet'}
+    %script{:src=>'/app.js', :type=>'text/javascript'}
+
+  %body
+    = yield
